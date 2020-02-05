@@ -34,6 +34,6 @@ make.df <- function(num_row,mu = 7,sigma = 3, theta = 1080,trials = 120,p = .65 
 
 test2 <- make.df(num_row = 500, probs = as.numeric(rdirichlet(1,c(5,10,40,15,15,10,5))))
 
-hist(test2$ages)
+# Switch function - useful when we have multiple cases 
+# Requires a lot of playing around with to get used to 
 
-test
